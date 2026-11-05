@@ -43,6 +43,11 @@ println!("\n{}", greetings);
 let result = do_sum(56, 14);
 println!("The sum is: {}", result);     
 
+let mut variable_this:String=String::from("This is a variable.");
+variable_this.push_str(" This is a string.");
+println!("{}", variable_this);
+
+
 }
 
 fn do_sum(a:i32, b:i32)->i32{
