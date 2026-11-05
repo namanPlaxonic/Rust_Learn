@@ -40,7 +40,11 @@ let greetings: String= String::from("Hello, Naman!");
 println!("\n{}", greetings);
 
 
+let result = do_sum(56, 14);
+println!("The sum is: {}", result);     
 
+}
 
-
+fn do_sum(a:i32, b:i32)->i32{
+    return a+b;
 }
